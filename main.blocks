@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="HkA1,ga{*~lDJs!nOa+7" x="-22" y="-131"></block><block type="pxt-on-start" id="pt)B-G^$=rHc$HpQy]Xh" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="E@=?t122@N)c?:Qrp(t,"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="%gF}-eb0JI.=Gsk5cU5("><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="yHCBH=BS~qpJ9[01GL.l"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="3hd~-UyxBtXR@h:W%V~6"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="z]YS|x(]X=/Z|-lLb(MU"></block></value><value name="B"><shadow type="math_number" id="=(B4Pp{dtvEVi~3Cio,5"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="]y#tUx6!qjPsDyoO=sPl"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="m%fZXk3s~$0unyxi*[^x"><field name="LEDS">`
+        . # # . . 
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        . # # . .
+        `</field></block></statement></block></statement></block></xml>
